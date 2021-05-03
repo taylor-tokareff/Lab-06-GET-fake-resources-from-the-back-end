@@ -2,7 +2,7 @@
 import app from './lib/app.js';
 
 // either use the env variable PORT, or default to 8001
-const port = process.env.PORT || 8001;
+const port = process.env.PORT || 8080;
 
 // time to start the server!
 app.listen(port, () => {
